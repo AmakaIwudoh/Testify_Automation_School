@@ -1,0 +1,73 @@
+# Python Interview Questions Challenge
+
+Question 1. What are the main features of Python?
+
+(1) Python is an interpreted language and does not need to be compiled before it is run.
+
+(2) Python is well suited to object orientated programming in that it allows the definition of classes along with composition and inheritance.
+
+
+(3) Python is a High Level Programming language.
+
+(4) Python is literally a general-purpose language, i.e.,
+Python finds its way in various domains such as web application development, automation, Data Science, Machine Learning, and more.
+
+(5) Writing Python code is quick but running it is often slower than compiled languages.
+
+(6) Graphical User Interface (GUI) Support
+
+(7) Large Community Support
+
+
+Question 2. What is the difference between a list and a dictionary?
+
+List– An ordered sequence of items is called a list. The elements of a list may belong to different data types. Eg. [10,’Amaka’,2.4]
+
+Dictionary–  It is an unordered collection of elements. The elements in dictionaries are stored as key-value pairs.
+A dictionary stores values in key and value pairs where each value can be accessed through its key.
+The order of items is not important. Eg. {1:’pear’,2:’grapes}
+
+
+Question 3. In your word, explain the keyword pass
+Pass means no-operation Python statement. It simply indicates a space that should be left blank within the compound statement.
+
+Question 4. What is an iterator in Python?
+
+Iterator are the certain objects that are easily traversed and iterated when needed
+
+Question 5. What is unit testing?
+Unit testing means testing different components of software separately.
+
+Question 6. Of the available unit test framework in Python, which is your favorite and why.
+
+(1) unittest
+(2) pytest
+
+My favorite is pytest because it's easier to work with; the code is simpler.
+
+Question 7. Name the types of arguments in Python
+(1) Keyword arguments
+(2) Positional argument
+(3) Default arguments
+(4) Arbitrary positional arguments
+(5) Arbitrary keyword arguments
+
+Question 8. Explain what functions are.
+A function is a sequence of instructions that performs a specific task, it is a  block of code which is executed only when a call is made to the function.
+A function can have input arguments, which are made available to it by the user, the entity calling the function.
+Functions also have output parameters, which are the results of the function that the user expects to receive once the
+function has completed its task.
+
+
+Question 9. How do you create a class in Python?
+
+To create a class, use the keyword class:
+
+Question 10. Explain what polymorphism and Inheritance are in Python OOP
+Polymorphism means the ability to take multiple forms. It allows us to use a single interface with different underlying forms such as
+data types or classes. For instance, if the parent class has a method named ABC then the child class also can have a method with the
+same name ABC having its own parameters and variables.
+
+Inheritance allows us to define a class that inherits all the methods and attributes from another class.
+Inheritance provides code re-usability, makes it easier to create and maintain an application.
+The class from which we are inheriting is called super-class and the class that is inherited is called a derived / child class.
