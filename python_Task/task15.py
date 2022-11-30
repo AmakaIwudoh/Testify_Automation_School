@@ -1,0 +1,10 @@
+names = ["Amaka", "Rukky", "Pat", "Joel", "Kim"]
+print(names)
+names.sort()
+print(names)
+names.sort(reverse=True)
+print(names)
+names.insert(4, "Sam")
+print(names)
+names.append("Tim")
+print(names)
