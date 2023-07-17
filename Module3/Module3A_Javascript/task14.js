@@ -1,43 +1,24 @@
-//My Personal Library3
+//My Personal Library2
 
-const books = [
-{
+/*
+    Add a toggleReadingStatus method to your books objects. 
+    The method should update the value of the reading property of the book object.
+*/
+
+const books = {
 
     title: 'Animal Farm',
     description: 'Story of group of animals',
     numberOfPages: 160,
     author: 'George Orwell',
-    reading: true
-},
-
-{
-
-    title: 'Things Fall Apart',
-    description: 'Story of about Village Settings',
-    numberOfPages: 350,
-    author: 'Chinua Achebe',
-    reading: true
-},
-{
-
-    title: 'Half of a Yellow Sun',
-    description: 'Story of about Biafran War',
-    numberOfPages: 450,
-    author: 'Chimamanda Adichie',
-    reading: true
-},
-{
-
-    title: 'Purple Hisbiscus',
-    description: 'Story of about Freedom',
-    numberOfPages: 400,
-    author: 'Chimamanda Adichie',
-    reading: false
+    reading: false,
+    toggleReadingStatus: function(){
+        if(books.reading === true){
+            books.reading = false
+        }else {
+            books.reading = true
+        }
+    }
 }
-];
-for (let i = 0; i < books.length; i++){
-    if (books[i].reading === true)
-    console.log(books[i])   
-}
-     
-
+books.toggleReadingStatus();
+console.log(books.reading);

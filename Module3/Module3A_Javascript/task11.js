@@ -1,5 +1,10 @@
-const friends = ['Amaka', 'Ify', 'Jane', 'Rukky', 'Stella']
+/*
+    Declare a variable, friends and assign it an array [ ]
+    Add 5 elements in the array (Each element should be of type string. 
+    Remember to separate each element by a comma,
+    Log your friends array to the console and take a look. 
+*/
 
-const bestFriend = friends[0] //Amaka is my best friend
+const friends = ['Amaka', 'Ify', 'Jane', 'Rukky', 'Stella'];
 
-console.log(bestFriend)
+console.log(friends);

@@ -1,15 +1,14 @@
-//Program that prints the name of the triangle based on the length of the sides in relation to one another
+/*Odd or even?
+Write a Javascript program that checks if a given number, number is odd or even. 
 
-const side1 = 8
-const side2 = 7
-const side3 = 9
+If the number is odd, print to the console: number is odd. If  the number is even, print to the console: number is even */
 
-if (side1 === side2 && side2 === side3){
-    console.log('Equilateral Triangle')
-}
-else if (side1 === side2 || side2 === side3 || side1 === side3){
-    console.log('Isosceles Triangle')
-}
-else {
-    console.log('Scalene Triangle')
+
+for ( let number = 1; number <=20; number = number+1 ) {
+    if (number % 2 !== 0) {
+        // console.log(number);
+        console.log(number,'This is an odd number');
+    } else {
+        console.log(number,'This is an even number');
+    }
 }

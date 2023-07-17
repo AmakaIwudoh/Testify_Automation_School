@@ -9,7 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
-      - run: node JsCodingChallenge.js
+      # - run: node JsCodingChallenge.js
+      - run: node Module3/Unlock_Module3B/Challenge1.js
       #- run: node Js_Challenge\jsCodeChallenge2.js
       #- run: node Js_Challenge\jsCodeChallenge3.js
       #- run: node Js_Challenge\jsCodeChallenge4.js

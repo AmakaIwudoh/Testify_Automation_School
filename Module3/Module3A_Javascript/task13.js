@@ -1,4 +1,14 @@
-//My Personal Library2
+//My Personal Library
+
+/*
+    Using object literal, write a JavaScript object, books.
+    The book object should take the following properties
+    title (string)
+    description (string)
+    numberOfPages (number)
+    author (string)
+    reading (boolean)
+*/
 
 const books = {
 
@@ -6,14 +16,7 @@ const books = {
     description: 'Story of group of animals',
     numberOfPages: 160,
     author: 'George Orwell',
-    reading: false,
-    toggleReadingStatus: function(){
-        if(books.reading === true){
-            books.reading = false
-        }else {
-            books.reading = true
-        }
-    }
+    reading: true
 }
-books.toggleReadingStatus()
-console.log(books.reading)
+console.log(books.numberOfPages);
+console.log(books.author);

@@ -1,5 +1,12 @@
-function calculateAreaOfRectangle(length, width){
-    const areaOfRectangle = length * width
-    return areaOfRectangle
+/*Task: Area Of a Rectangle
+
+Write JavaScript function, calculateAreaOfRectangle. The function should take two parameters, length and width. 
+
+Multiply the length and width and log the product to the console
+*/
+
+function calculateAreaOfRectangle (length,width) {
+    const product = length*width
+    console.log(product)
 }
-console.log(calculateAreaOfRectangle(9,7))
+calculateAreaOfRectangle(6,7)

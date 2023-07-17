@@ -1,11 +1,11 @@
-//My Personal Library
+/*
+    From your array of friends created in the previous task, choose your best friend based on their index in the array.
 
-const books = {
 
-    title: 'Animal Farm',
-    description: 'Story of group of animals',
-    numberOfPages: 160,
-    author: 'George Orwell',
-    reading: true
-}
-console.log(books.numberOfPages)
+*/ 
+
+const friends = ['Amaka', 'Ify', 'Jane', 'Rukky', 'Stella']
+
+const bestFriend = friends[0] //Amaka is my best friend
+
+console.log(bestFriend);
